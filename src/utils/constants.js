@@ -1,4 +1,4 @@
-export const API_BASE_URL = "http://localhost:5000/api";
+export const API_BASE_URL = "https://taskflow-backend-6a3u.onrender.com/api";
 
 export const ROUTES = {
   LOGIN: "/login",
