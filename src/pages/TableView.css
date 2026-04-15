@@ -1,0 +1,32 @@
+.table-page {
+  display: grid;
+  gap: 16px;
+}
+
+.table-head h1 {
+  margin: 0;
+}
+
+.table-head p {
+  margin: 8px 0 0;
+  color: var(--text-muted);
+}
+
+.table-filters {
+  display: flex;
+  gap: 8px;
+}
+
+.table-filters select {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--card);
+  color: var(--text);
+  padding: 10px 12px;
+}
+
+@media (max-width: 640px) {
+  .table-filters {
+    flex-direction: column;
+  }
+}
