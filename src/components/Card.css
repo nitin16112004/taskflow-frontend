@@ -1,0 +1,88 @@
+.task-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg);
+  padding: 12px;
+}
+
+.task-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.task-top h4 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.priority {
+  border-radius: 999px;
+  padding: 4px 8px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.priority.high {
+  background: #ef4444;
+}
+
+.priority.medium {
+  background: #f59e0b;
+}
+
+.priority.low {
+  background: #22c55e;
+}
+
+.task-desc {
+  margin: 8px 0;
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.35;
+}
+
+.task-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 12px;
+}
+
+.task-assignee {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.task-avatar {
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: var(--primary);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.task-actions {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.2fr;
+  gap: 6px;
+}
+
+.task-actions button,
+.task-actions select {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--card);
+  color: var(--text);
+  padding: 6px 8px;
+  font-size: 12px;
+  cursor: pointer;
+}

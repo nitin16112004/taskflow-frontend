@@ -1,0 +1,26 @@
+.table-wrap {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--card);
+  box-shadow: var(--shadow-sm);
+  overflow-x: auto;
+}
+
+.table-ui {
+  width: 100%;
+  min-width: 900px;
+  border-collapse: collapse;
+}
+
+.table-ui th,
+.table-ui td {
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  font-size: 14px;
+}
+
+.table-ui th {
+  color: var(--text-muted);
+  font-weight: 600;
+}
