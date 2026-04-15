@@ -1,0 +1,41 @@
+.list-column {
+    min-height: 420px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--card);
+    box-shadow: var(--shadow-sm);
+    padding: 10px;
+  }
+  
+  .list-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .list-head h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .list-head span {
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+  
+  .list-add-btn {
+    margin-top: 10px;
+    width: 100%;
+    border: 1px dashed var(--border);
+    border-radius: 10px;
+    background: var(--bg);
+    color: var(--text);
+    padding: 8px;
+    font-weight: 500;
+  }
+  
+  .list-tasks {
+    margin-top: 10px;
+    display: grid;
+    gap: 10px;
+  }

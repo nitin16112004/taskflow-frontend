@@ -1,0 +1,76 @@
+.settings-page {
+  display: grid;
+  gap: 16px;
+}
+
+.settings-head h1 {
+  margin: 0;
+}
+
+.settings-head p {
+  margin: 8px 0 0;
+  color: var(--text-muted);
+}
+
+.settings-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.settings-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--card);
+  box-shadow: var(--shadow-sm);
+  padding: 16px;
+}
+
+.settings-card h3 {
+  margin-top: 0;
+}
+
+.profile-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  background: var(--primary);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+}
+
+.profile-row p {
+  margin: 0;
+}
+
+.profile-row small {
+  color: var(--text-muted);
+}
+
+.theme-label {
+  color: var(--text-muted);
+  margin: 8px 0 12px;
+}
+
+.theme-btn {
+  border: none;
+  border-radius: 10px;
+  background: var(--primary);
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 14px;
+}
+
+@media (max-width: 980px) {
+  .settings-grid {
+    grid-template-columns: 1fr;
+  }
+}
